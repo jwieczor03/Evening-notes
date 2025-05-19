@@ -1,15 +1,15 @@
 // App-wide colors
 import 'package:flutter/material.dart';
 
-const Color primary = Color(0xFFBFA67A); // stonowane złoto-beż
-const Color gray900 = Color(0xFF2C2C2C); // bardzo ciemny szary, prawie czarny
-const Color gray700 = Color(0xFF4A4A4A); // wieczorny szary
-const Color gray500 = Color(0xFF7A7A7A); // stonowany, ciepły szary
-const Color gray300 = Color(0xFFA6A6A6); // jasnoszary z ciepłą nutą
-const Color gray100 = Color(0xFFE0DFDD); // kremowo-szary
-const Color background = Color(0xFFFAF8F5); // jasne tło w kolorze pergaminu
-const Color black = Color(0xFF1E1E1E); // bardziej miękki niż pure black
-const Color white = Color(0xFFFDFDFD); // złamany biały
+const Color primary = Color(0xFFBFA67A);
+const Color gray900 = Color(0xFF2C2C2C);
+const Color gray700 = Color(0xFF4A4A4A);
+const Color gray500 = Color(0xFF7A7A7A);
+const Color gray300 = Color(0xFFA6A6A6);
+const Color gray100 = Color(0xFFE0DFDD);
+const Color background = Color(0xFFFAF8F5);
+const Color black = Color(0xFF1E1E1E);
+const Color white = Color(0xFFFDFDFD);
 
 const Map<String, String> authExceptionMapper = {
   'email-already-in-use':

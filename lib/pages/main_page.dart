@@ -43,7 +43,7 @@ class _MainPageState extends State<MainPage> {
           ),
         ],
       ),
-      floatingActionButton: NoteFab(
+      floatingActionButton: FloatingActionButton(
         onPressed: () {
           Navigator.push(
             context,
@@ -57,6 +57,8 @@ class _MainPageState extends State<MainPage> {
             ),
           );
         },
+        child: const Icon(Icons.add),
+        shape: const CircleBorder(),
       ),
       body: Consumer<NotesProvider>(
         builder: (context, notesProvider, child) {

@@ -9,7 +9,6 @@ import '../core/dialogs.dart';
 import '../widgets/note_back_button.dart';
 import '../widgets/note_icon_button_outlined.dart';
 import '../widgets/note_metadata.dart';
-import '../widgets/note_toolbar.dart';
 
 class NewOrEditNotePage extends StatefulWidget {
   const NewOrEditNotePage({
